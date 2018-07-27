@@ -34,7 +34,6 @@ fun g f1 f2 p =
 	  | _                 => 0
     end
 
-(**** for the challenge problem only ****)
 
 datatype typ = Anything
 	     | UnitT
@@ -42,7 +41,6 @@ datatype typ = Anything
 	     | TupleT of typ list
 	     | Datatype of string
 
-(**** you can put all your code here ****)
 
 (* Returns a list of strings whose first letter is capital *)
 fun only_capitals xs =
